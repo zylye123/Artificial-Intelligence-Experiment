@@ -1,5 +1,6 @@
 # Artificial-Intelligence-Experiment
 Artificial Intelligence Experiment Midterm; Spine Diagnosis
+
 utils.py
 
 ​ 该文件不需要输入。其功能为读取txt文件，将其转成网络需要的大小格式。主要的函数是load_label，其中包含核心代码。其功能主要是将txt的坐标转成对应的heatmap，分类的v1,v2等字符用字典转成相应的数字当作标签。为train.py和Inference.py文件所调用。​
