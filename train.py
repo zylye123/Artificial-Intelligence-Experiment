@@ -16,7 +16,7 @@ from thop import profile
 
 CUDA_LAUNCH_BLOCKING=1
 
-device = ('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 #device='cpu'
 
 parser = argparse.ArgumentParser()
